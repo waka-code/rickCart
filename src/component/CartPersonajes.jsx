@@ -47,7 +47,7 @@ function CartPersonajes() {
                       </div>
                     </section>
                     <section>
-                      <img src={morty.image} />
+                      <img src={morty.image} alt={morty.name} />
                     </section>
                     <section className="infoRick">
                       <h5>{morty.species}</h5>
@@ -98,7 +98,7 @@ const RickyMorty = styled.div`
         justify-content: space-between;
         padding: 5px;
         img {
-          height: 25vh;
+          height: auto;
           width: 100%;
         }
       }

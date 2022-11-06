@@ -11,7 +11,7 @@ function App() {
   return (
     <AppCss>
       <div className="App" style={{ textAlign: "center", userSelect: "none" }}>
-        <img className="logoApp" src={logo} />
+        <img className="logoApp" src={logo} alt='logo'/>
         <Button />
         <BrowserRouter>
           <CartPersonajes />
@@ -30,6 +30,7 @@ function App() {
 const AppCss = styled.div`
   .logoApp {
     height: 20vh;
+    width: auto;
   }
   @media (max-width: 700px) {
     .logoApp {

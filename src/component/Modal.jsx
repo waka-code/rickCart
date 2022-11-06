@@ -2,7 +2,7 @@ import { RickContext } from "../contex/Rick_morty";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
 import { useEffect, useState, useContext } from "react";
-import a from "../img/l0.jpg";
+import a from "../img/l0.png";
 import logo from "../img/logo.png";
 import { AiFillHeart, AiFillFileUnknown } from "react-icons/ai";
 import { FaSkull } from "react-icons/fa";
