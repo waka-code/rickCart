@@ -11,7 +11,7 @@ import {
 } from "react-icons/fi";
 
 function Button() {
-  const { setBtnPage, btnPage, setSearch, data } = useContext(RickContext);
+  const { setBtnPage, btnPage, setSearch, data,search } = useContext(RickContext);
   const Next = async () => {
     if (btnPage === 826) {
       alert("Last page");
@@ -51,10 +51,15 @@ function Button() {
     setSearch(filterData);
   };
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    search();
+  }
+
   return (
     <>
       <ButtonCss>
-        <form>
+        <form onSubmit={handleSubmit}>
           <FcSearch className="iconForm" />
           <input
             type="text"

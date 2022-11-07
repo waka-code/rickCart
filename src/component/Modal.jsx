@@ -55,7 +55,7 @@ export default function Modal() {
                     </div>
                   ) : (
                     <section>
-                      <img src={infoName[0]?.image} alt="" />{" "}
+                      <img src={infoName[0]?.image} alt="imgLogo" />{" "}
                       <div>
                         <ul>Id: {infoName[0]?.id}</ul>
                         <ul>Name: {infoName[0]?.name}</ul>
@@ -220,7 +220,7 @@ const Modalcss = styled.div`
     .modal {
       .overlay {
         .modal-content {
-          top: 60%;
+          top: 65%;
           width: 100%;
           .p {
             margin: 15px auto;
@@ -252,6 +252,16 @@ const Modalcss = styled.div`
         .logo {
           height: 15vh;
         }
+        .modal-content {
+          top: 55%;
+          .p {
+            section {
+              img {
+                height: 20vh;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -271,28 +281,7 @@ const Modalcss = styled.div`
           height: 8vh;
         }
         .modal-content {
-          .p {
-            section {
-              img {
-                width: 100%;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  @media (max-width: 250px) {
-    .modal {
-      .overlay {
-        .modal-content {
-          .p {
-            section {
-              img {
-                width: 30%;
-              }
-            }
-          }
+          top: 55%;
         }
       }
     }
