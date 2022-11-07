@@ -63,16 +63,16 @@ function Button() {
             onChange={(e) => filterSearch(e.target.value)}
           />
         </form>
-        <button onClick={Back10} className="iconForm">
+        <button onClick={Back10} aria-label="btnback10" className="iconForm">
           <FiChevronsLeft />
         </button>
-        <button onClick={Back} className="iconForm">
+        <button onClick={Back} aria-label="btnback" className="iconForm">
           <FiChevronLeft />
         </button>
-        <button onClick={Next} className="iconForm">
+        <button onClick={Next} aria-label="btnnext" className="iconForm">
           <FiChevronRight />
         </button>
-        <button onClick={Next10} className="iconForm">
+        <button onClick={Next10} aria-label="btnback10" className="iconForm">
           <FiChevronsRight />
         </button>
         <br />
