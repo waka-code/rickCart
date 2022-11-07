@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rickCart/static/css/main.141c7dc7.css",
-    "main.js": "/rickCart/static/js/main.79517a11.js",
-    "static/media/ric.png": "/rickCart/static/media/ric.de5bc9ead12adcace4dc.png",
-    "static/media/l0.png": "/rickCart/static/media/l0.64ee1e205cac293c1c19.png",
+    "main.css": "/rickCart/static/css/main.b739b55d.css",
+    "main.js": "/rickCart/static/js/main.784959a3.js",
+    "static/media/ric.png": "/rickCart/static/media/ric.59018fbe2b4e4cf0c49b.png",
+    "static/media/l0.png": "/rickCart/static/media/l0.60dc61b80b13ac5bb9df.png",
     "static/media/logo.png": "/rickCart/static/media/logo.5d357ce221cac1a319d6.png",
     "static/media/loading.gif": "/rickCart/static/media/loading.59e06a8dd6c14293a810.gif",
     "index.html": "/rickCart/index.html",
-    "main.141c7dc7.css.map": "/rickCart/static/css/main.141c7dc7.css.map",
-    "main.79517a11.js.map": "/rickCart/static/js/main.79517a11.js.map"
+    "main.b739b55d.css.map": "/rickCart/static/css/main.b739b55d.css.map",
+    "main.784959a3.js.map": "/rickCart/static/js/main.784959a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.141c7dc7.css",
-    "static/js/main.79517a11.js"
+    "static/css/main.b739b55d.css",
+    "static/js/main.784959a3.js"
   ]
 }
