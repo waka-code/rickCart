@@ -90,7 +90,7 @@ const RickyMorty = styled.div`
     .Cart {
       border: 2px solid #1c9b11cc;
       cursor: pointer;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
       transition: all 0.4s ease-in;
       section {
@@ -122,11 +122,29 @@ const RickyMorty = styled.div`
 
   @media (min-width: 2200px) {
     .CartPersonaje {
+      .cartlink {
+        height: 100vh;
+      }
       .Cart {
-        width: 70%;
+        width: 90%;
       }
     }
   }
+  @media (max-width: 2200px) {
+    .CartPersonaje {
+      .cartlink {
+        height: 100vh;
+      }
+    }
+  }
+  @media (max-width: 1500px) {
+    .CartPersonaje {
+      .cartlink {
+        height: auto;
+      }
+    }
+  }
+
   @media (max-width: 1000px) {
     .CartPersonaje {
       grid-template-columns: repeat(3, 1fr);

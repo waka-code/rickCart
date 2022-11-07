@@ -165,6 +165,8 @@ const Modalcss = styled.div`
           img {
             height: 35vh;
             width: auto;
+            margin: 5px;
+            border-radius: 100%;
           }
         }
       }
