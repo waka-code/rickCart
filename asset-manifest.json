@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/rickCart/static/css/main.b739b55d.css",
-    "main.js": "/rickCart/static/js/main.cb63d24e.js",
+    "main.js": "/rickCart/static/js/main.a4f04c36.js",
     "static/media/ric.png": "/rickCart/static/media/ric.59018fbe2b4e4cf0c49b.png",
     "static/media/l0.png": "/rickCart/static/media/l0.60dc61b80b13ac5bb9df.png",
     "static/media/logo.png": "/rickCart/static/media/logo.5d357ce221cac1a319d6.png",
     "static/media/loading.gif": "/rickCart/static/media/loading.59e06a8dd6c14293a810.gif",
     "index.html": "/rickCart/index.html",
     "main.b739b55d.css.map": "/rickCart/static/css/main.b739b55d.css.map",
-    "main.cb63d24e.js.map": "/rickCart/static/js/main.cb63d24e.js.map"
+    "main.a4f04c36.js.map": "/rickCart/static/js/main.a4f04c36.js.map"
   },
   "entrypoints": [
     "static/css/main.b739b55d.css",
-    "static/js/main.cb63d24e.js"
+    "static/js/main.a4f04c36.js"
   ]
 }
