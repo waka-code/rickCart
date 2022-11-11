@@ -123,7 +123,7 @@ const Modalcss = styled.div`
       background-size: cover;
       .logo {
         height: 20vh;
-        margin: 25px;
+        margin: 15px auto;
       }
     }
     .modal-content {
@@ -220,7 +220,7 @@ const Modalcss = styled.div`
     .modal {
       .overlay {
         .modal-content {
-          top: 65%;
+          top: 60%;
           width: 100%;
           .p {
             margin: 15px auto;

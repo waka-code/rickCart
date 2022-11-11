@@ -23,9 +23,7 @@ export function Rick_MortyProvider(props) {
   }
 
   useEffect(() => {
-    setTimeout(() => {
       rickDate();
-    }, 150);
   }, [btnPage]);
 
   return (
